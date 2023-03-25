@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0 auto;
+    max-width: 1920px;
+}
+a{
+    text-decoration: none;
+}
+.alignfull{
+    margin: 0 auto;
+    max-width: 1920px;
+}
+#header .container{
+    max-width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+}
+#header{
+    width: 100%;
+}
+.contact{ 
+    background-color: #1175b7;
+    width: 100%;
+}
+.icon{
+    width: 20px;
+}
+.main-inform{
+    display: flex;
+    font-size: 16px;
+    font-family: 'Segoe UI';
+    color: white;
+}
+.header-menu{
+    height: 125px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+.logo{
+    color: #1175b7;
+    font-size: 32px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+}
+nav{
+    width: 45%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu{
+    font-size: 18px;
+    font-family: 'Segoe UI';
+    color: #1175b7;
+    font-weight: bold;
+    line-height: 30px;
+}
+.menu:hover{
+    color: #f6a937;
+    font-size: 20px;
+}
+.btn{
+    background-color: #f6a937;
+    border-radius: 5px;
+    width: 170px;
+    height: 50px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+    transition: 0.3s ease-in;
+}
+#main-banner .btn{
+    background-color: #f6a937;
+    border-radius: 5px;
+    width: 170px;
+    height: 50px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+    transition: 0.3s ease-in;
+}
+.btn:hover{
+    background-color:white ;
+    color: #f6a937;
+    border: 2px solid #f6a937;
+}
+#main-banner .btn:hover{
+    background-color:rgba(0, 0, 0, 0.452) ;
+    color: #f6a937;
+    border: 2px solid #f6a937;
+}
+#main-banner{
+    height: 850px;
+    background-image: url(img/fon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+#main-banner .container{
+    display: grid;
+    justify-items: center;
+}
+.images{
+    width: 100%;
+}
+.title-text{
+    font-size: 27px;
+    font-weight: 300;
+    font-family: 'Segoe UI';
+    color: white;
+}
+.title-main{
+    font-size: 64px;
+    font-weight: bolder;
+    font-family: 'Segoe UI';
+    color: white;
+    width: 60%;
+    text-align: center;
+}
+#block{
+    width: 100%;
+    height: 950px;
+}
+.block{
+    height: 950px;
+}
+#services{
+    width: 100%;
+    height: 850px;
+    background-color: #f9f5f2;
+}
+.title-small{
+    padding-top: 7%;
+    font-size: 18px;
+    font-family: 'Segoe UI';
+    color: #f6a937;
+    text-align: center;
+}
+.title-name{
+    font-size: 43px;
+    font-family: 'Segoe UI';
+    color: #414141; 
+    text-align: center;
+    padding-bottom: 3%;
+}
+.info-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cartinka{
+    width: 100%;
+}
+.card{
+    display: grid;
+    width: 25%;
+    background-color: white;
+    height: 550px;
+    transition: 0.5s ease-in-out;
+    color: #848484;
+}
+.title-job{
+    padding: 10px;
+    font-size: 22px;
+    font-family: 'Segoe UI';
+}
+.text-card{
+    padding: 15px;
+    font-size: 16px;
+    font-family: 'Segoe UI';
+}
+.job{
+    padding: 15px;
+}
+.card:hover{
+    background-color: #1175b7;
+    color: white;
+}
